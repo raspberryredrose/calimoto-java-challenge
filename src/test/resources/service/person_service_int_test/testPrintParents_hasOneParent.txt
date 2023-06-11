@@ -1,0 +1,2 @@
+Hans has the following parents:
+Name: Parent 1; Age in years: 55; Height in cm: 120;

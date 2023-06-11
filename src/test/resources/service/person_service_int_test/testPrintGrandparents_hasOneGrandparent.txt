@@ -1,0 +1,2 @@
+Hans has the following grandparents:
+Name: Grandparent 1; Age in years: 55; Height in cm: 120;

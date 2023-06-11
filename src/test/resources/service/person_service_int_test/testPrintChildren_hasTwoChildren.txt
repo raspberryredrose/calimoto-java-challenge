@@ -1,0 +1,3 @@
+Hans has the following children:
+Name: Child 1; Age in years: 55; Height in cm: 120;
+Name: Child 2; Age in years: 35; Height in cm: 120;

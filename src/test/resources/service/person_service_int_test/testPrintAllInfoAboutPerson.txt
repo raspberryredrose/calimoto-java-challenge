@@ -1,0 +1,13 @@
+Name: Hans; Age in years: 24; Height in cm: 170;
+Hans has the following parents:
+Name: Parent 1; Age in years: 55; Height in cm: 120;
+Name: Parent 2; Age in years: 55; Height in cm: 120;
+Hans has the following children:
+Name: Child 1; Age in years: 55; Height in cm: 120;
+Name: Child 2; Age in years: 55; Height in cm: 120;
+Hans has the following grandparents:
+Name: Grandparent 1; Age in years: 55; Height in cm: 120;
+Name: Grandparent 2; Age in years: 55; Height in cm: 120;
+Hans has the following grandchildren:
+Name: Grandchild 1; Age in years: 55; Height in cm: 120;
+Name: Grandchild 2; Age in years: 55; Height in cm: 120;
