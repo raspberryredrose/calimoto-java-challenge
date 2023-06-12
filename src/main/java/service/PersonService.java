@@ -4,6 +4,7 @@ import model.Person;
 
 import java.util.List;
 
+// TODO maybe refactor to remove duplicated code
 public class PersonService {
     public static void printInfoAboutPerson(Person person) {
         String personInfo = person.getInfoAboutPerson();

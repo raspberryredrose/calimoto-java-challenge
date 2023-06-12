@@ -4,35 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437f24b5-c884-4d17-ad62-07d52f168cb7" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/PersonSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/PersonServiceIntTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/PersonSorterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintAllInfoAboutPerson.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintChildren_hasNoChildren.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintChildren_hasOneChild.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintChildren_hasTwoChildren.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandchildren_hasNoChildren.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandchildren_hasNoGrandchildren.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandchildren_hasOneGrandchild.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandchildren_hasTwoGrandchildrenFromTwoChildren.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandparents_hasNoGrandparents.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandparents_hasNoParents.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandparents_hasOneGrandparent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintGrandparents_hasTwoGrandparentsFromTwoParents.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintParents_hasNoParents.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintParents_hasOneParent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service/person_service_int_test/testPrintParents_hasTwoParents.txt" afterDir="false" />
+    <list default="true" id="437f24b5-c884-4d17-ad62-07d52f168cb7" name="Changes" comment="feat: Task 1 first version">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -94,7 +80,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.PersonSorterTest.testSortPersonListByAge_ascending">
+  <component name="RunManager" selected="Gradle.PersonSorterTest">
     <configuration name="PersonServiceIntTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,7 +105,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PersonServiceIntTest.testPrintAllInfoAboutPerson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PersonSorterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +118,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.PersonServiceIntTest.testPrintAllInfoAboutPerson&quot;" />
+            <option value="&quot;service.PersonSorterTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +129,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PersonServiceIntTest.testPrintGrandparents_hasTwoGrandparentsFromTwoParents" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PersonSorterTest.testSortPersonListByHeight_ascending" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.PersonServiceIntTest.testPrintGrandparents_hasTwoGrandparentsFromTwoParents&quot;" />
+            <option value="&quot;service.PersonSorterTest.testSortPersonListByHeight_ascending&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,7 +153,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PersonSorterTest.testSortPersonListByAge_ascending" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PersonSorterTest.testSortPersonListByHeight_descending" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,7 +166,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.PersonSorterTest.testSortPersonListByAge_ascending&quot;" />
+            <option value="&quot;service.PersonSorterTest.testSortPersonListByHeight_descending&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,7 +177,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="PersonSorterTest.testSortPersonListByAge_descending" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,7 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;service.PersonSorterTest.testSortPersonListByAge_descending&quot;" />
+            <option value="&quot;model.PersonTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PersonSorterTest.testSortPersonListByAge_ascending" />
-        <item itemvalue="Gradle.PersonSorterTest.testSortPersonListByAge_descending" />
-        <item itemvalue="Gradle.PersonServiceIntTest.testPrintAllInfoAboutPerson" />
+        <item itemvalue="Gradle.PersonSorterTest" />
         <item itemvalue="Gradle.PersonServiceIntTest" />
-        <item itemvalue="Gradle.PersonServiceIntTest.testPrintGrandparents_hasTwoGrandparentsFromTwoParents" />
+        <item itemvalue="Gradle.PersonTest" />
+        <item itemvalue="Gradle.PersonSorterTest.testSortPersonListByHeight_descending" />
+        <item itemvalue="Gradle.PersonSorterTest.testSortPersonListByHeight_ascending" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686473599696</updated>
-      <workItem from="1686473600533" duration="11740000" />
+      <workItem from="1686473600533" duration="13583000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686473751655</created>
@@ -242,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686473751655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Task 1 first version">
+      <created>1686485724194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686485724194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,9 +255,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="feat: Task 1 first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Task 1 first version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/calimoto_java_challenge$PersonServiceIntTest.ic" NAME="PersonServiceIntTest Coverage Results" MODIFIED="1686483829994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/calimoto_java_challenge$PersonSorterTest.ic" NAME="PersonSorterTest Coverage Results" MODIFIED="1686549843519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/calimoto_java_challenge$PersonTest.ic" NAME="PersonTest Coverage Results" MODIFIED="1686549824303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/calimoto_java_challenge$PersonServiceIntTest.ic" NAME="PersonServiceIntTest Coverage Results" MODIFIED="1686549837152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

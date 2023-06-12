@@ -2,14 +2,14 @@ package model;
 
 
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.List;
 
 @Builder
-@Data
+@Getter
 public class Person {
     private LocalDate dateOfBirth;
     private Integer heightInCm;
